@@ -1,7 +1,6 @@
 WElCOME PAGE:
 
 html:
-
 -a better color scheme
 -footer design
 -a prettier title
@@ -9,5 +8,6 @@ html:
 
 
 css:
-
 -delete the unneeded part that formats featurttes  
+
+ABOUT, EVENTS, GALLERY, OFFICERS and LINKS to be constructed
