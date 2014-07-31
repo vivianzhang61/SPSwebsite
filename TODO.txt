@@ -1,0 +1,13 @@
+WElCOME PAGE:
+
+html:
+
+-a better color scheme
+-footer design
+-a prettier title
+-a prettier navigation bar
+
+
+css:
+
+-delete the unneeded part that formats featurttes  
