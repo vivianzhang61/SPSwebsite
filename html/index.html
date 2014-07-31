@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +17,13 @@
     <!-- Custom styles for this template -->
     <link href="../css/index.css" rel="stylesheet">
   </head>
+  
+<!--TITLE************************-->
+  
+  <div class="title">
+  <h1><img class= "img" src="../image/shortcutLogo.png" > <b><i>UCLA</i></b> Society of Physics Students</h1>
+  </div>
+  
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -33,9 +41,9 @@
               </button>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="Welcome">Welcome</a></li>
-                <li><a href="#Home">Home</a></li>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#Welcome">Welcome</a></li>
+                <li><a href="#About">About</a></li>
 				<li><a href="#Events">Events</a></li>
                 <li><a href="#Gallery">Gallery</a></li>
 				<li><a href="#Officers">Officers</a></li>
@@ -49,8 +57,8 @@
     </div>
 
 
-    <!-- Carousel
-    ================================================== -->
+<!-- Carousel
+ ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -60,51 +68,51 @@
 		<li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
 	  
-	 <!--first slide ********************************** -->
+<!--first slide ********************************** -->
       <div class="carousel-inner">
         <div class="item active">
-          <img class= "img" src="../image/planetarium.jpg" alt="First slide">
+          <img class= "img" src="../image/planetarium.png" alt="First slide" bottom:0>
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption" >
               <h3>Some Event</h3>
               <p class="description">Note: If you're viewing this page via asad RL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-sm btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
 		
-		 <!--second slide **********************************-->
+<!--second slide **********************************-->
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <img src="../image/graduation.png" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h3>Another Event</h3>
               <p class="description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-sm btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
 		
-		 <!--third slide **********************************-->
+<!--third slide **********************************-->
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img src="../image/prom.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h3>More Event</h3>
               <p class="description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-sm btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
 		
-		 <!--fourth slide **********************************-->
+<!--fourth slide **********************************-->
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img src="../image/meeting.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h3>Event</h3>
               <p class="description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-sm btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -124,20 +132,25 @@
 		 <h2> New in UCLA Physics</h2><br/><br/>
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 230px; height: 140px;">
+		  
+<!--first news*************************-->       
+	    <div class="col-lg-4">
+          <img class="img-rounded" src="../image/miao.jpg" alt="first news" style="width: 270px; height: 140px;">
           <h2>Some Physics News</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 230px; height: 140px;">
+<!--second news*************************-->        
+	    <div class="col-lg-4">
+          <img class="img-rounded" src="../image/omega.jpg" alt="second news" style="width: 270px; height: 140px;">
           <h2>Another Physics News</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 230px; height: 140px;">
+
+<!--third news*************************-->        
+	    <div class="col-lg-4">
+          <img class="img-rounded" src="../image/triple.jpg" alt="third news" style="width: 270px; height: 140px;">
           <h2>Physics News</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -147,7 +160,7 @@
 
       <!-- FOOTER -->
       <footer>
-        <p>Subscribe today</p>
+        <p>Subscribe today:</p>
       </footer>
 
     </div><!-- /.container -->
