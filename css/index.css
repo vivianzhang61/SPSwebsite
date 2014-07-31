@@ -10,15 +10,26 @@ body {
 /*TITLE
 --------------------------------------------------*/
 .title{
+	margin-top:70px;
 	margin-left:10px;
 }
 .title h1 {
 	 font-size: 45px;
 }
 .title img {
-	text-align: default;
-	height: 50px;
-	width: 50px;
+	vertical-align:text-bottom;
+	height: 55px;
+	width: 55px;
+}
+.ucla{
+	font-size:56px;
+	 display:inline;
+}
+	
+.rest {
+	font-size:60px;
+	font-family:"Perpetua", serif;
+	display:inline;
 }
 
 
@@ -28,8 +39,7 @@ body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 70px;
-  left: 80px;
+  left: 0px;
   right: auto;
   z-index: 20;
 }
@@ -53,7 +63,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-top:100px;
+  margin-top:20px;
   height: 500px;
   margin-bottom: 60px;
 }
@@ -63,7 +73,7 @@ body {
   border-style: outset;
   border-width: 3px;
   background-color:rgba(192,192,192,0.5);
-  margin-bottom: 60px;
+  margin-bottom: 45px;
   margin-right: 0px;
   margin-left:350px;
 
@@ -71,6 +81,7 @@ body {
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px
+  
 }
 .carousel-caption p{
 	text-align:left;
@@ -104,6 +115,14 @@ body {
 	margin-top:150px;
 }
 
+.learn:link{ 
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.learn:visited{ 
+	color:#E2A9F3;
+	text-decoration:none;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -121,6 +140,28 @@ body {
   margin-left: 10px;
 }
 
+
+/* FOOTER
+----------------------------------------------------*/
+footer {
+  top:200px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: #f5f5f5;
+}
+footer p {
+	font-size:16px;
+	text-align:center;
+	padding-right:20px;
+}
+
+footer img{
+	vertical-align:bottom;
+	height:30px;
+	width:30px;
+}
 
 
 /* RESPONSIVE CSS

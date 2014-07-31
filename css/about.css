@@ -10,16 +10,27 @@ body {
 /*TITLE
 --------------------------------------------------*/
 .title{
+	margin-top:70px;
 	margin-left:10px;
-	z-index:1;
 }
 .title h1 {
 	 font-size: 45px;
 }
 .title img {
+	vertical-align:text-bottom;
 	text-align: default;
 	height: 50px;
 	width: 50px;
+}
+.ucla{
+	font-size:56px;
+	 display:inline;
+}
+	
+.rest {
+	font-size:60px;
+	font-family:"Goudy Old Style", serif;
+	display:inline;
 }
 
 
@@ -29,8 +40,7 @@ body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 70px;
-  left: 80px;
+  left: 0px;
   right: auto;
   z-index: 20;
 }
